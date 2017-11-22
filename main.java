@@ -128,7 +128,7 @@ public class main{
         //Removing first 4 anomolies
         if(p<4){
 
-          String fNOO="E1aAttept"+Integer.toString(p)+".txt";
+          String fNOO="E1aAttempt"+Integer.toString(p)+".txt";
           try{
             FileWriter write = new FileWriter(fNOO, false);
             PrintWriter print_line = new PrintWriter(write);
@@ -141,7 +141,7 @@ public class main{
             }
             print_line.close();
           }catch(Exception ex){System.out.println("OHNO");}
-          String fNOOO="E1aAtteptA"+Integer.toString(p)+".txt";
+          String fNOOO="E1aAttemptA"+Integer.toString(p)+".txt";
           try{
             File file=new File(fNOOO);
             PrintWriter writer = new PrintWriter(new FileOutputStream(file, false));
@@ -170,7 +170,7 @@ public class main{
           }catch(Exception ex){System.out.println("OHNO");}
 
 
-          String fNOO2="E1bAttept"+Integer.toString(p)+".txt";
+          String fNOO2="E1bAttempt"+Integer.toString(p)+".txt";
           try{
             FileWriter write = new FileWriter(fNOO2, false);
             PrintWriter print_line = new PrintWriter(write);
@@ -183,7 +183,7 @@ public class main{
             }
             print_line.close();
           }catch(Exception ex){System.out.println("OHNO");}
-          String fNOOO2="E1bAtteptA"+Integer.toString(p)+".txt";
+          String fNOOO2="E1bAttemptA"+Integer.toString(p)+".txt";
           try{
             File file=new File(fNOOO2);
             PrintWriter writer = new PrintWriter(new FileOutputStream(file, false));
