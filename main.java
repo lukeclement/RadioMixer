@@ -185,7 +185,7 @@ public class main{
           }catch(Exception ex){System.out.println("OHNO");}
           String fNOOO2="E1bAtteptA"+Integer.toString(p)+".txt";
           try{
-            File file=new File(fNOOO);
+            File file=new File(fNOOO2);
             PrintWriter writer = new PrintWriter(new FileOutputStream(file, false));
             for(int i=0;i<3;i++){
 
@@ -210,6 +210,7 @@ public class main{
             }
             writer.close();
           }catch(Exception ex){System.out.println("OHNO");}
+
         }
 
         p++;
