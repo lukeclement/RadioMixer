@@ -1,9 +1,10 @@
 import java.util.*;
 import java.io.*;
 /*
-  Program written by Luke Clement on 16/11/2017
-  For use with data procssing of Radio Mixer experiment
-  Feel free to use, just be sure to cite me! :D
+    Program written by Luke Clement on 16/11/2017.
+    Latest update was on 30/01/2018, commenting some new things.
+    For use with data procssing of Radio Mixer experiment.
+    Feel free to use, just be sure to cite me! :D
 */
 public class main{
     public static void main(String[] args){
